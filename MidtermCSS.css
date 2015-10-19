@@ -1,0 +1,224 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+    background-color: azure;
+    
+}
+body {
+    line-height: normal;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size:1.25rem;
+    color:11067F;
+    
+}
+
+h1{
+    
+    font-size: 2rem;
+}
+h1, h2, h3 {
+    margin: .65rem .55rem .45rem;
+    line-height: normal;
+    font-weight: auto;
+    color:#67A3FF;
+}
+p {
+    margin-bottom: .70rem;
+    line-height: normal;
+    text-align: justify;
+    word-wrap: break-word;
+    color: #6759FF;
+    
+    }
+
+}
+nav.mainnav ul {
+    list-style: none;
+    
+}
+nav.mainnav ul li a {
+    display:inline-block;
+    white-space:nowrap;
+    padding:.62rem;
+    text-decoration: none;
+    background-color: gray;
+    border-bottom: .1rem solid #6759FF;
+    color:#220DFF;
+    font-family: cursive;
+    font-size: 1.20rem;
+    width:100%;
+    text-align: center;
+    
+}
+nav.mainnav ul li a:hover {
+   background:#4B467F;
+    color:#1B0ACC;
+}
+
+nav.mainnav ul li{
+    float: left;
+    width: 100%; 
+    
+}
+header.masthead {
+    background-image: url(http://lorempixel.com/600/400/cats/);
+    padding: 8.75rem 0rem;
+    width: 100%;
+    text-align: center;
+}
+main.content {
+    padding: 1.1rem;
+}
+image.left {
+    
+    float: left;
+    margin: 0.5rem;
+}
+image.right {
+    float:right;
+    margin: 0.5rem;
+}
+aside.side {
+    padding: .05rem;
+    
+}
+footer.footer {
+    clear: both;
+    padding: .5rem;
+    color:cadetblue;
+    background-color: #67DCFF;
+       
+}
+img {
+    width: 80%;
+    
+}
+
+
+
+@media all and (min-width:35em) and (max-width: 60em) {
+    h1 {
+        font-size: 3rem;
+        clear: both;
+        
+    }
+    h2 {
+        font-size: 1.25rem;
+        clear: both;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    h1 {
+        white-space: nowrap;
+    }
+    div.wrapper {
+        margin: 0 auto;
+        
+    }
+    header.masthead {
+        padding: 8.75rem 0rem;
+
+    }
+    nav.mainnav ul{
+        width: 100%;
+        table-layout: fixed;
+        display:table;
+        
+    }
+    nav.mainnav ul li{
+        list-style: none;
+    width: 25%; 
+    
+    }
+    
+    main.content {
+    width: 66%;
+        float:left;
+        
+    }
+    aside.side {
+    width: 33%;
+    float: left;
+    }
+    
+}
+
+@media all and (max-width:35em){
+
+    p{
+    font-size: 1.2rem
+    }
+
+}
+@media all and (min-width:60em) {
+       h1 {
+        font-size: 6rem;
+        clear: both;
+        
+    }
+    h2 {
+        font-size: 2.25rem;
+        clear: both;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    aside.side p {
+        font-size: 1.1rem;
+    }
+    h1 {
+        white-space: nowrap;
+    }
+    div.wrapper {
+        margin: 0 auto;
+        
+    }
+    header.masthead {
+        padding: 8.75rem 0rem;
+
+    }
+    nav.mainnav ul{
+        width: 25%;
+        table-layout: fixed;
+        display:table;
+        float: left;
+        
+    }
+    nav.mainnav ul li{
+
+    width: 100%; 
+    
+}
+    main.content {
+    column-count: 2;
+    -webkit-column-count:2;
+        width: 50%;
+        float: left;
+    }
+      aside.side {
+    width: 25%;
+    float: left;
+    }
+    
+}
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
